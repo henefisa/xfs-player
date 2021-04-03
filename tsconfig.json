@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "allowJs": true,
+    "strict": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@@/*": ["./*"]
+    },
+    "jsx": "react-jsx"
+  },
+  "include": ["src/**/*"]
+}
