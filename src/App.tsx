@@ -5,7 +5,7 @@ const App: FC = () => {
   return (
     <div className="app">
       <div>
-        <Player controls src="smp.mp4" />
+        <Player controls src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" autoPlay={false}/>
       </div>
     </div>
   );
